@@ -16,8 +16,9 @@ end
 def get_contestant_name(data, occupation)
   data.each do |show_season, contestant|
     contestant.each do |info|
+      
     end
-    end
+  end
 end
 
 def count_contestants_by_hometown(data, hometown)
