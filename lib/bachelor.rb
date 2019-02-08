@@ -58,10 +58,9 @@ def get_average_age_for_season(data, season)
         info.each do |aspect, reading|
           age_pool = 0 
           age_pool += info["age"].to_i
-          average_age = (age_pool/(info.length))
+          return age_pool/(info.length)
         end
       end
     end
   end
-  average_age
 end
