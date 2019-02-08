@@ -45,6 +45,7 @@ def get_occupation(data, hometown)
         if info["hometown"] == hometown
           return info["occupation"]
          counter += 1
+       end
       end
     end
   end
