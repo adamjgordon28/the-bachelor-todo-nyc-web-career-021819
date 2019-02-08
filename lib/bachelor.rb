@@ -18,6 +18,7 @@ def get_contestant_name(data, occupation)
     contestant.each do |info|
       info.each do |aspect, reading|
         if info["occupation"] == occupation
+          return info["name"]
         end
       end
     end
