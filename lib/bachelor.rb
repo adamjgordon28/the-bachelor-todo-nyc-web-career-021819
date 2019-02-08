@@ -61,7 +61,6 @@ def get_average_age_for_season(data, season)
           age_sum += info["age"].to_i
           count += 1
           return (age_sum/count).to_i
-         end
         end
       end
     end
