@@ -30,6 +30,8 @@ def count_contestants_by_hometown(data, hometown)
   data.each do |show_season, contestant|
     contestant.each do |info|
       info.each do |aspect, reading|
+        if info[]
+        end
       end
     end
   end
