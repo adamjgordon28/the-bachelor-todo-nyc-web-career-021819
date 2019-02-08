@@ -3,7 +3,8 @@ def get_first_name_of_season_winner(data, season)
    if show_season == season 
      contestant.each do |info|
        info.each do |aspect, reading|
-         if info[aspect] == ""
+         if info[aspect] == "Winner"
+         end
        end
      end
    end
