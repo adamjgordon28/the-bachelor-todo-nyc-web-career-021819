@@ -42,10 +42,11 @@ def get_occupation(data, hometown)
   if counter < 1 
     data.each do |show_season,contestant|
       contestant.each do |info|
-        
+        if info["hometown"] == hometown
+          return info["occupation"]
+         counter += 1
       end
     end
-    counter += 1
   end
 end
 
