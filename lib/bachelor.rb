@@ -5,6 +5,7 @@ def get_first_name_of_season_winner(data, season)
        info.each do |aspect, reading|
          if info[aspect] == "Winner"
            name_array = info["name"].split(" ")
+           return name_array[0]
          end
        end
      end
