@@ -56,9 +56,9 @@ age = 0
 count = 0
   data[season].each do |info|
     info.each do |aspect,reading|
-      if k == "age"
+      if aspect == "age"
         count += 1
-        age += v.to_f
+        age += reading.to_f
       end
     end
   end
