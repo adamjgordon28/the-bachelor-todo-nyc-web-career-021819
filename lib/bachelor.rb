@@ -41,6 +41,8 @@ def get_occupation(data, hometown)
   counter = 0 
   if counter < 1 
     data.each do |show_season,contestant|
+      contestant.each do |info|
+      end
     end
     counter += 1
   end
