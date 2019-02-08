@@ -16,7 +16,8 @@ end
 def get_contestant_name(data, occupation)
   data.each do |show_season, contestant|
     contestant.each do |info|
-      
+      info.each do |aspect, reading|
+      end
     end
   end
 end
