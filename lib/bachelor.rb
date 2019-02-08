@@ -56,6 +56,8 @@ def get_average_age_for_season(data, season)
     contestant.each do |info|
       if show_season == season 
         info.each do |aspect, reading|
+          age_pool = 0 
+          age_pool += info["age"].to_i
         end
       end
     end
