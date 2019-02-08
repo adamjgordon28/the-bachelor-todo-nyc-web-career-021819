@@ -58,6 +58,10 @@ def get_average_age_for_season(data, season)
       if show_season == season 
         info.each do |aspect, reading|
           age_array << info["age"].to_i
+          sum = 0
+          age_array.each do |a| 
+            sum+=a
+         end
         end
       end
     end
